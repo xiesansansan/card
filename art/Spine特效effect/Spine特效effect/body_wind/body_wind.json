@@ -1,0 +1,1856 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "winda", "parent": "root" },
+	{ "name": "winda2", "parent": "root", "scaleX": 0.658, "scaleY": 0.658 },
+	{ "name": "windscreen01", "parent": "root", "y": 125.7, "rotation": 12.98 },
+	{ "name": "windscreen02", "parent": "root", "x": -0.15, "y": 285.79, "scaleX": 0.682, "scaleY": 0.543, "rotation": -33.09 },
+	{ "name": "wind01", "parent": "winda", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind012", "parent": "winda2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind02", "parent": "winda", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind022", "parent": "winda2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind03", "parent": "winda", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind032", "parent": "winda2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind04", "parent": "winda", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind042", "parent": "winda2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind05", "parent": "winda", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind052", "parent": "winda2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind06", "parent": "winda", "scaleX": 2, "scaleY": 2 },
+	{ "name": "wind062", "parent": "winda2", "scaleX": 2, "scaleY": 2 },
+	{ "name": "windscreen013", "parent": "windscreen02" },
+	{ "name": "windscreen01a", "parent": "windscreen01" },
+	{ "name": "windscreen02a", "parent": "windscreen01" },
+	{ "name": "windscreen02a2", "parent": "windscreen02" },
+	{ "name": "windscreen03a", "parent": "windscreen01" },
+	{ "name": "windscreen03a2", "parent": "windscreen02" },
+	{ "name": "windscreen03b", "parent": "windscreen01" },
+	{ "name": "windscreen03b2", "parent": "windscreen02" },
+	{ "name": "windscreen04a", "parent": "windscreen01" },
+	{ "name": "windscreen04a2", "parent": "windscreen02" },
+	{ "name": "windscreen04b", "parent": "windscreen01" },
+	{ "name": "windscreen04b2", "parent": "windscreen02" },
+	{ "name": "windscreen05b", "parent": "windscreen01" },
+	{ "name": "windscreen05b2", "parent": "windscreen02" },
+	{ "name": "windscreen06a", "parent": "windscreen01" },
+	{ "name": "windscreen06a2", "parent": "windscreen02" },
+	{ "name": "windscreen06b", "parent": "windscreen01" },
+	{ "name": "windscreen06b2", "parent": "windscreen02" }
+],
+"slots": [
+	{ "name": "windscreen03b", "bone": "windscreen03b", "color": "ffffff00", "attachment": "windscreen03b", "additive": true },
+	{ "name": "windscreen04b", "bone": "windscreen04b", "color": "ffffff00", "attachment": "windscreen04b", "additive": true },
+	{ "name": "windscreen05b", "bone": "windscreen05b", "color": "ffffff00", "attachment": "windscreen05b", "additive": true },
+	{ "name": "windscreen06b", "bone": "windscreen06b", "color": "ffffff00", "attachment": "windscreen06b", "additive": true },
+	{ "name": "windscreen03b2", "bone": "windscreen03b2", "color": "ffffff00", "attachment": "windscreen03b", "additive": true },
+	{ "name": "windscreen04b2", "bone": "windscreen04b2", "color": "ffffff00", "attachment": "windscreen04b", "additive": true },
+	{ "name": "windscreen05b2", "bone": "windscreen05b2", "color": "ffffff00", "attachment": "windscreen05b", "additive": true },
+	{ "name": "windscreen06b2", "bone": "windscreen06b2", "color": "ffffff00", "attachment": "windscreen06b", "additive": true },
+	{ "name": "wind012", "bone": "wind012", "color": "ffffff00", "attachment": "wind01" },
+	{ "name": "wind022", "bone": "wind022", "color": "ffffff00", "attachment": "wind02" },
+	{ "name": "wind032", "bone": "wind032", "color": "ffffff00", "attachment": "wind03" },
+	{ "name": "wind042", "bone": "wind042", "color": "ffffff00", "attachment": "wind04" },
+	{ "name": "wind052", "bone": "wind052", "color": "ffffff00", "attachment": "wind05" },
+	{ "name": "wind062", "bone": "wind062", "color": "ffffff00", "attachment": "wind06" },
+	{ "name": "wind01", "bone": "wind01", "color": "ffffff00", "attachment": "wind01" },
+	{ "name": "wind02", "bone": "wind02", "color": "ffffff00", "attachment": "wind02" },
+	{ "name": "wind03", "bone": "wind03", "color": "ffffff00", "attachment": "wind03" },
+	{ "name": "wind04", "bone": "wind04", "color": "ffffff00", "attachment": "wind04" },
+	{ "name": "wind05", "bone": "wind05", "color": "ffffff00", "attachment": "wind05" },
+	{ "name": "wind06", "bone": "wind06", "color": "ffffff00", "attachment": "wind06" },
+	{ "name": "windscreenbase", "bone": "windscreen01", "color": "ffffff00", "attachment": "windscreenbase", "additive": true },
+	{ "name": "windscreen01a", "bone": "windscreen01a", "color": "ffffff00", "attachment": "windscreen01a", "additive": true },
+	{ "name": "windscreen02a", "bone": "windscreen02a", "color": "ffffff00", "attachment": "windscreen02a", "additive": true },
+	{ "name": "windscreen03a", "bone": "windscreen03a", "color": "ffffff00", "attachment": "windscreen03a", "additive": true },
+	{ "name": "windscreen04a", "bone": "windscreen04a", "color": "ffffff00", "attachment": "windscreen04a", "additive": true },
+	{ "name": "windscreen06a", "bone": "windscreen06a", "color": "ffffff00", "attachment": "windscreen06a", "additive": true },
+	{ "name": "windscreen01a2", "bone": "windscreen013", "color": "ffffff00", "attachment": "windscreen01a", "additive": true },
+	{ "name": "windscreen02a2", "bone": "windscreen02a2", "color": "ffffff00", "attachment": "windscreen02a", "additive": true },
+	{ "name": "windscreen03a2", "bone": "windscreen03a2", "color": "ffffff00", "attachment": "windscreen03a", "additive": true },
+	{ "name": "windscreen04a2", "bone": "windscreen04a2", "color": "ffffff00", "attachment": "windscreen04a", "additive": true },
+	{ "name": "windscreen06a2", "bone": "windscreen06a2", "color": "ffffff00", "attachment": "windscreen06a", "additive": true }
+],
+"skins": {
+	"default": {
+		"wind01": {
+			"wind01": { "width": 281, "height": 89 }
+		},
+		"wind012": {
+			"wind01": { "width": 281, "height": 89 }
+		},
+		"wind02": {
+			"wind02": { "width": 281, "height": 89 }
+		},
+		"wind022": {
+			"wind02": { "width": 281, "height": 89 }
+		},
+		"wind03": {
+			"wind03": { "width": 281, "height": 89 }
+		},
+		"wind032": {
+			"wind03": { "width": 281, "height": 89 }
+		},
+		"wind04": {
+			"wind04": { "width": 281, "height": 89 }
+		},
+		"wind042": {
+			"wind04": { "width": 281, "height": 89 }
+		},
+		"wind05": {
+			"wind05": { "width": 281, "height": 89 }
+		},
+		"wind052": {
+			"wind05": { "width": 281, "height": 89 }
+		},
+		"wind06": {
+			"wind06": { "width": 281, "height": 89 }
+		},
+		"wind062": {
+			"wind06": { "width": 281, "height": 89 }
+		},
+		"windscreen01a": {
+			"windscreen01a": { "x": -81.49, "y": -43.29, "scaleX": 2, "scaleY": 2, "width": 201, "height": 59 }
+		},
+		"windscreen01a2": {
+			"windscreen01a": { "x": -81.49, "y": -43.29, "scaleX": 2, "scaleY": 2, "width": 201, "height": 59 }
+		},
+		"windscreen02a": {
+			"windscreen02a": { "x": 75.48, "y": -44.75, "scaleX": 2, "scaleY": 2, "width": 206, "height": 58 }
+		},
+		"windscreen02a2": {
+			"windscreen02a": { "x": 75.48, "y": -44.75, "scaleX": 2, "scaleY": 2, "width": 206, "height": 58 }
+		},
+		"windscreen03a": {
+			"windscreen03a": { "x": 194.01, "y": -34.87, "scaleX": 2, "scaleY": 2, "width": 88, "height": 63 }
+		},
+		"windscreen03a2": {
+			"windscreen03a": { "x": 194.01, "y": -34.87, "scaleX": 2, "scaleY": 2, "width": 88, "height": 63 }
+		},
+		"windscreen03b": {
+			"windscreen03b": { "x": 187.47, "y": 32.69, "scaleX": 2, "scaleY": 2, "width": 95, "height": 61 }
+		},
+		"windscreen03b2": {
+			"windscreen03b": { "x": 187.47, "y": 32.69, "scaleX": 2, "scaleY": 2, "width": 95, "height": 61 }
+		},
+		"windscreen04a": {
+			"windscreen04a": { "x": 263.23, "y": -15.25, "scaleX": 2, "scaleY": 2, "width": 19, "height": 44 }
+		},
+		"windscreen04a2": {
+			"windscreen04a": { "x": 263.23, "y": -15.25, "scaleX": 2, "scaleY": 2, "width": 19, "height": 44 }
+		},
+		"windscreen04b": {
+			"windscreen04b": { "x": 94.82, "y": 36.51, "scaleX": 2, "scaleY": 2, "width": 187, "height": 65 }
+		},
+		"windscreen04b2": {
+			"windscreen04b": { "x": 94.82, "y": 36.51, "scaleX": 2, "scaleY": 2, "width": 187, "height": 65 }
+		},
+		"windscreen05b": {
+			"windscreen05b": { "x": -35.44, "y": 43.57, "scaleX": 2, "scaleY": 2, "width": 245, "height": 58 }
+		},
+		"windscreen05b2": {
+			"windscreen05b": { "x": -35.44, "y": 43.57, "scaleX": 2, "scaleY": 2, "width": 245, "height": 58 }
+		},
+		"windscreen06a": {
+			"windscreen06a": { "x": -205.09, "y": -33.69, "scaleX": 2, "scaleY": 2, "width": 77, "height": 59 }
+		},
+		"windscreen06a2": {
+			"windscreen06a": { "x": -205.09, "y": -33.69, "scaleX": 2, "scaleY": 2, "width": 77, "height": 59 }
+		},
+		"windscreen06b": {
+			"windscreen06b": { "x": -153.38, "y": 37.76, "scaleX": 2, "scaleY": 2, "width": 130, "height": 64 }
+		},
+		"windscreen06b2": {
+			"windscreen06b": { "x": -153.38, "y": 37.76, "scaleX": 2, "scaleY": 2, "width": 130, "height": 64 }
+		},
+		"windscreenbase": {
+			"windscreenbase": { "width": 564, "height": 203 }
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"wind01": {
+				"attachment": [
+					{ "time": 0, "name": "wind01" },
+					{ "time": 0.4, "name": "wind01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind02": {
+				"attachment": [
+					{ "time": 0, "name": "wind02" },
+					{ "time": 0.4, "name": "wind02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind03": {
+				"attachment": [
+					{ "time": 0, "name": "wind03" },
+					{ "time": 0.4, "name": "wind03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind04": {
+				"attachment": [
+					{ "time": 0, "name": "wind04" },
+					{ "time": 0.4, "name": "wind04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind05": {
+				"attachment": [
+					{ "time": 0, "name": "wind05" },
+					{ "time": 0.4, "name": "wind05" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind06": {
+				"attachment": [
+					{ "time": 0, "name": "wind06" },
+					{ "time": 0.4, "name": "wind06" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind012": {
+				"attachment": [
+					{ "time": 0, "name": "wind01" },
+					{ "time": 0.4, "name": "wind01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind022": {
+				"attachment": [
+					{ "time": 0, "name": "wind02" },
+					{ "time": 0.4, "name": "wind02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind032": {
+				"attachment": [
+					{ "time": 0, "name": "wind03" },
+					{ "time": 0.4, "name": "wind03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind042": {
+				"attachment": [
+					{ "time": 0, "name": "wind04" },
+					{ "time": 0.4, "name": "wind04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind052": {
+				"attachment": [
+					{ "time": 0, "name": "wind05" },
+					{ "time": 0.4, "name": "wind05" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind062": {
+				"attachment": [
+					{ "time": 0, "name": "wind06" },
+					{ "time": 0.4, "name": "wind06" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen01a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen01a" },
+					{ "time": 0.4, "name": "windscreen01a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen01a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen01a" },
+					{ "time": 0.4, "name": "windscreen01a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen02a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen02a" },
+					{ "time": 0.4, "name": "windscreen02a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"windscreen02a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen02a" },
+					{ "time": 0.4, "name": "windscreen02a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen03a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen03a" },
+					{ "time": 0.4, "name": "windscreen03a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen03a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen03a" },
+					{ "time": 0.4, "name": "windscreen03a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen03b": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen03b" },
+					{ "time": 0.4, "name": "windscreen03b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen03b2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen03b" },
+					{ "time": 0.4, "name": "windscreen03b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen04a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen04a" },
+					{ "time": 0.4, "name": "windscreen04a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen04a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen04a" },
+					{ "time": 0.4, "name": "windscreen04a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"windscreen04b": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen04b" },
+					{ "time": 0.4, "name": "windscreen04b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen04b2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen04b" },
+					{ "time": 0.4, "name": "windscreen04b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen05b": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen05b" },
+					{ "time": 0.4, "name": "windscreen05b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen05b2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen05b" },
+					{ "time": 0.4, "name": "windscreen05b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen06a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen06a" },
+					{ "time": 0.2, "name": "windscreen06a" },
+					{ "time": 0.4, "name": "windscreen06a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen06a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen06a" },
+					{ "time": 0.4, "name": "windscreen06a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen06b": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen06b" },
+					{ "time": 0.4, "name": "windscreen06b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen06b2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen06b" },
+					{ "time": 0.4, "name": "windscreen06b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreenbase": {
+				"attachment": [
+					{ "time": 0, "name": "windscreenbase" },
+					{ "time": 0.4, "name": "windscreenbase" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind01": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind02": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind03": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind04": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind05": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind06": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen01": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.056, "y": 0.287, "curve": "stepped" },
+					{ "time": 0.4, "x": 1.056, "y": 0.287 }
+				]
+			},
+			"windscreen02": {
+				"rotate": [
+					{ "time": 0, "angle": 25.54, "curve": "stepped" },
+					{ "time": 0.4, "angle": 25.54 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -88.38, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": -88.38 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen013": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen01a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen02a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen02a2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen03a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen03a2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen03b": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen03b2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen04a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen04a2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen04b": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen04b2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen05b": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen05b2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen06a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen06a2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen06b": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen06b2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind062": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind052": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind042": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind022": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind032": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind012": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"winda2": {
+				"rotate": [
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 0.999, "y": 0.999 }
+				]
+			},
+			"winda": {
+				"rotate": [
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"draworder": [
+			{ "time": 0 },
+			{ "time": 0.4 }
+		]
+	},
+	"animation2": {
+		"slots": {
+			"wind01": {
+				"attachment": [
+					{ "time": 0, "name": "wind01" },
+					{ "time": 0.4, "name": "wind01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"wind02": {
+				"attachment": [
+					{ "time": 0, "name": "wind02" },
+					{ "time": 0.4, "name": "wind02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind03": {
+				"attachment": [
+					{ "time": 0, "name": "wind03" },
+					{ "time": 0.4, "name": "wind03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind04": {
+				"attachment": [
+					{ "time": 0, "name": "wind04" },
+					{ "time": 0.4, "name": "wind04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind05": {
+				"attachment": [
+					{ "time": 0, "name": "wind05" },
+					{ "time": 0.4, "name": "wind05" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind06": {
+				"attachment": [
+					{ "time": 0, "name": "wind06" },
+					{ "time": 0.4, "name": "wind06" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind012": {
+				"attachment": [
+					{ "time": 0, "name": "wind01" },
+					{ "time": 0.4, "name": "wind01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind022": {
+				"attachment": [
+					{ "time": 0, "name": "wind02" },
+					{ "time": 0.4, "name": "wind02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind032": {
+				"attachment": [
+					{ "time": 0, "name": "wind03" },
+					{ "time": 0.4, "name": "wind03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind042": {
+				"attachment": [
+					{ "time": 0, "name": "wind04" },
+					{ "time": 0.4, "name": "wind04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"wind052": {
+				"attachment": [
+					{ "time": 0, "name": "wind05" },
+					{ "time": 0.4, "name": "wind05" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"wind062": {
+				"attachment": [
+					{ "time": 0, "name": "wind06" },
+					{ "time": 0.4, "name": "wind06" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen01a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen01a" },
+					{ "time": 0.4, "name": "windscreen01a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen01a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen01a" },
+					{ "time": 0.4, "name": "windscreen01a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen02a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen02a" },
+					{ "time": 0.4, "name": "windscreen02a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen02a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen02a" },
+					{ "time": 0.4, "name": "windscreen02a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen03a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen03a" },
+					{ "time": 0.4, "name": "windscreen03a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen03a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen03a" },
+					{ "time": 0.4, "name": "windscreen03a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen03b": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen03b" },
+					{ "time": 0.4, "name": "windscreen03b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen03b2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen03b" },
+					{ "time": 0.4, "name": "windscreen03b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen04a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen04a" },
+					{ "time": 0.4, "name": "windscreen04a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen04a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen04a" },
+					{ "time": 0.4, "name": "windscreen04a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen04b": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen04b" },
+					{ "time": 0.4, "name": "windscreen04b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen04b2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen04b" },
+					{ "time": 0.4, "name": "windscreen04b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"windscreen05b": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen05b" },
+					{ "time": 0.4, "name": "windscreen05b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen05b2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen05b" },
+					{ "time": 0.4, "name": "windscreen05b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen06a": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen06a" },
+					{ "time": 0.4, "name": "windscreen06a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen06a2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen06a" },
+					{ "time": 0.4, "name": "windscreen06a" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen06b": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen06b" },
+					{ "time": 0.2, "name": "windscreen06b" },
+					{ "time": 0.4, "name": "windscreen06b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreen06b2": {
+				"attachment": [
+					{ "time": 0, "name": "windscreen06b" },
+					{ "time": 0.4, "name": "windscreen06b" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"windscreenbase": {
+				"attachment": [
+					{ "time": 0, "name": "windscreenbase" },
+					{ "time": 0.4, "name": "windscreenbase" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind01": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind02": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind03": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind04": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind05": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind06": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen01": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.056, "y": 0.287, "curve": "stepped" },
+					{ "time": 0.4, "x": 1.056, "y": 0.287 }
+				]
+			},
+			"windscreen02": {
+				"rotate": [
+					{ "time": 0, "angle": 25.54, "curve": "stepped" },
+					{ "time": 0.4, "angle": 25.54 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -88.38, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": -88.38 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen013": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen01a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen02a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen02a2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen03a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen03a2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen03b": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen03b2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen04a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen04a2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen04b": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen04b2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen05b": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen05b2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen06a": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen06a2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen06b": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"windscreen06b2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind062": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind052": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind042": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind022": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind032": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"wind012": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"winda2": {
+				"rotate": [
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 0.999, "y": 0.999 }
+				]
+			},
+			"winda": {
+				"rotate": [
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"draworder": [
+			{ "time": 0 },
+			{ "time": 0.4 }
+		]
+	}
+}
+}

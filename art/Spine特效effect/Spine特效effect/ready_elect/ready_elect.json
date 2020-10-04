@@ -1,0 +1,151 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "light", "parent": "root" },
+	{ "name": "lightning", "parent": "root" },
+	{ "name": "shockring", "parent": "root" }
+],
+"slots": [
+	{ "name": "lightning01a", "bone": "lightning", "color": "ffffff00", "attachment": "lightning01a" },
+	{ "name": "shockring", "bone": "shockring", "color": "ffffff00", "attachment": "shockring" },
+	{ "name": "light", "bone": "light", "color": "ffffff00", "attachment": "light" }
+],
+"skins": {
+	"default": {
+		"light": {
+			"light": { "width": 287, "height": 284 }
+		},
+		"lightning01a": {
+			"lightning01a": { "scaleX": 0.983, "scaleY": 0.983, "width": 339, "height": 323 },
+			"lightning01b": { "width": 339, "height": 323 },
+			"lightning01c": { "width": 339, "height": 323 },
+			"lightning02a": { "width": 304, "height": 293 },
+			"lightning02b": { "width": 304, "height": 293 },
+			"lightning02c": { "width": 304, "height": 293 }
+		},
+		"shockring": {
+			"shockring": { "width": 62, "height": 250 }
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0333, "x": 1, "y": 1 }
+				]
+			},
+			"light": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0333, "x": 1, "y": 1 },
+					{
+						"time": 0.1,
+						"x": 2.028,
+						"y": 2.028,
+						"curve": [ 0.914, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"lightning": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				]
+			},
+			"shockring": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0333, "x": 1, "y": 1 },
+					{
+						"time": 0.1,
+						"x": 2.038,
+						"y": 2.038,
+						"curve": [ 0.258, 0.47, 0.467, 0.9 ]
+					},
+					{ "time": 0.4, "x": 2.42, "y": 2.42 },
+					{ "time": 0.5, "x": 2.684, "y": 2.684 }
+				]
+			}
+		},
+		"slots": {
+			"light": {
+				"attachment": [
+					{ "time": 0, "name": "light" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff" }
+				]
+			},
+			"lightning01a": {
+				"attachment": [
+					{ "time": 0, "name": "lightning01a" },
+					{ "time": 0.1333, "name": "lightning01b" },
+					{ "time": 0.1666, "name": "lightning01c" },
+					{ "time": 0.2, "name": "lightning02a" },
+					{ "time": 0.2333, "name": "lightning02b" },
+					{ "time": 0.2666, "name": "lightning02c" },
+					{ "time": 0.3, "name": "lightning02c" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"shockring": {
+				"attachment": [
+					{ "time": 0, "name": "shockring" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffffbd" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"draworder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

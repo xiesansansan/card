@@ -1,0 +1,98 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "dash01", "parent": "root", "length": 407, "x": 159, "rotation": 180 },
+	{ "name": "dash02", "parent": "root", "length": 383, "x": 159, "rotation": 180 }
+],
+"slots": [
+	{ "name": "dash01", "bone": "dash01", "attachment": "dash01", "additive": true },
+	{ "name": "dash02", "bone": "dash02", "attachment": "dash02", "additive": true }
+],
+"skins": {
+	"default": {
+		"dash01": {
+			"dash01": { "x": 228.67, "y": 4.99, "rotation": -180, "width": 497, "height": 380 }
+		},
+		"dash02": {
+			"dash02": { "x": 204.3, "scaleX": 2, "scaleY": 2, "rotation": -180, "width": 222, "height": 290 }
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"dash01": {
+				"attachment": [
+					{ "time": 0, "name": "dash01" },
+					{ "time": 0.1666, "name": "dash01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"dash02": {
+				"attachment": [
+					{ "time": 0, "name": "dash02" },
+					{ "time": 0.1666, "name": "dash02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				]
+			},
+			"dash01": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0842, "x": 1.37, "y": 0.748 },
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				]
+			},
+			"dash02": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.168, "y": 0.933 },
+					{ "time": 0.0361, "x": 1, "y": 1 },
+					{ "time": 0.1203, "x": 1.256, "y": 0.854 },
+					{ "time": 0.1666, "x": 1.168, "y": 0.933 }
+				]
+			}
+		},
+		"draworder": [
+			{ "time": 0 },
+			{ "time": 0.1666 }
+		]
+	}
+}
+}

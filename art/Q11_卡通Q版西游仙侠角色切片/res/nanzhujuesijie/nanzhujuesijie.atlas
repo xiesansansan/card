@@ -1,0 +1,251 @@
+
+nanzhujuesijie.png
+size: 982,432
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 298, 2
+  size: 69, 100
+  orig: 69, 100
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 717, 161
+  size: 52, 30
+  orig: 52, 30
+  offset: 0, 0
+  index: -1
+Eye-celebrate
+  rotate: false
+  xy: 717, 161
+  size: 52, 30
+  orig: 52, 30
+  offset: 0, 0
+  index: -1
+Eye-attack
+  rotate: false
+  xy: 914, 264
+  size: 52, 26
+  orig: 52, 26
+  offset: 0, 0
+  index: -1
+Eye-bi
+  rotate: false
+  xy: 914, 235
+  size: 52, 25
+  orig: 52, 25
+  offset: 0, 0
+  index: -1
+Eye-death
+  rotate: false
+  xy: 478, 9
+  size: 52, 23
+  orig: 52, 23
+  offset: 0, 0
+  index: -1
+Eye-injured
+  rotate: false
+  xy: 738, 204
+  size: 52, 28
+  orig: 52, 28
+  offset: 0, 0
+  index: -1
+Fair
+  rotate: false
+  xy: 643, 281
+  size: 92, 151
+  orig: 92, 151
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 797, 150
+  size: 113, 137
+  orig: 113, 137
+  offset: 0, 0
+  index: -1
+L-Forearm
+  rotate: false
+  xy: 683, 195
+  size: 24, 37
+  orig: 24, 37
+  offset: 0, 0
+  index: -1
+L-Leg
+  rotate: false
+  xy: 955, 171
+  size: 21, 60
+  orig: 21, 60
+  offset: 0, 0
+  index: -1
+L-Pendant
+  rotate: false
+  xy: 277, 0
+  size: 10, 24
+  orig: 10, 24
+  offset: 0, 0
+  index: -1
+L-Ribbon
+  rotate: false
+  xy: 200, 13
+  size: 73, 84
+  orig: 73, 84
+  offset: 0, 0
+  index: -1
+L-Upperarm
+  rotate: false
+  xy: 711, 195
+  size: 23, 37
+  orig: 23, 37
+  offset: 0, 0
+  index: -1
+L-beijia
+  rotate: false
+  xy: 717, 21
+  size: 91, 125
+  orig: 91, 125
+  offset: 0, 0
+  index: -1
+LU-Armor
+  rotate: false
+  xy: 905, 294
+  size: 57, 65
+  orig: 57, 65
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 200, 0
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+Mouth-attack
+  rotate: false
+  xy: 277, 86
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+Mouth-celebrate
+  rotate: false
+  xy: 773, 188
+  size: 19, 12
+  orig: 19, 12
+  offset: 0, 0
+  index: -1
+Mouth-death
+  rotate: false
+  xy: 218, 0
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+Mouth-injured
+  rotate: false
+  xy: 277, 72
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+Mouth-zhang
+  rotate: false
+  xy: 277, 28
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+R-Forearm
+  rotate: false
+  xy: 643, 192
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+R-Leg
+  rotate: false
+  xy: 914, 167
+  size: 37, 64
+  orig: 37, 64
+  offset: 0, 0
+  index: -1
+R-Pendant
+  rotate: false
+  xy: 277, 44
+  size: 11, 24
+  orig: 11, 24
+  offset: 0, 0
+  index: -1
+R-Ribbon
+  rotate: false
+  xy: 371, 17
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+R-beijia
+  rotate: false
+  xy: 739, 291
+  size: 162, 141
+  orig: 162, 141
+  offset: 0, 0
+  index: -1
+RU-Armor
+  rotate: false
+  xy: 905, 363
+  size: 77, 69
+  orig: 77, 69
+  offset: 0, 0
+  index: -1
+SE-daoguang01
+  rotate: false
+  xy: 480, 36
+  size: 233, 149
+  orig: 233, 149
+  offset: 0, 0
+  index: -1
+SE-daoguang02
+  rotate: false
+  xy: 0, 101
+  size: 294, 331
+  orig: 294, 331
+  offset: 0, 0
+  index: -1
+SE-daoguang03
+  rotate: false
+  xy: 298, 106
+  size: 178, 326
+  orig: 178, 326
+  offset: 0, 0
+  index: -1
+SE-daoguang04
+  rotate: false
+  xy: 480, 189
+  size: 159, 243
+  orig: 159, 243
+  offset: 0, 0
+  index: -1
+SE-daoguang05
+  rotate: false
+  xy: 812, 24
+  size: 160, 122
+  orig: 160, 122
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 0, 4
+  size: 196, 93
+  orig: 196, 93
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 643, 236
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,272 @@
+
+nanzhujuewujie.png
+size: 870,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 506, 11
+  size: 65, 111
+  orig: 65, 111
+  offset: 0, 0
+  index: -1
+Cloak
+  rotate: false
+  xy: 182, 3
+  size: 120, 80
+  orig: 120, 80
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 795, 176
+  size: 52, 30
+  orig: 52, 30
+  offset: 0, 0
+  index: -1
+Eye-attack
+  rotate: false
+  xy: 697, 0
+  size: 52, 26
+  orig: 52, 26
+  offset: 0, 0
+  index: -1
+Eye-bi
+  rotate: false
+  xy: 753, 1
+  size: 52, 25
+  orig: 52, 25
+  offset: 0, 0
+  index: -1
+Eye-celebrate
+  rotate: false
+  xy: 795, 142
+  size: 52, 30
+  orig: 52, 30
+  offset: 0, 0
+  index: -1
+Eye-death
+  rotate: false
+  xy: 809, 83
+  size: 52, 23
+  orig: 52, 23
+  offset: 0, 0
+  index: -1
+Eye-injured
+  rotate: false
+  xy: 795, 110
+  size: 52, 28
+  orig: 52, 28
+  offset: 0, 0
+  index: -1
+F-pilian
+  rotate: false
+  xy: 839, 428
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+Fair
+  rotate: false
+  xy: 252, 104
+  size: 78, 127
+  orig: 78, 127
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 334, 120
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+L-Armor
+  rotate: false
+  xy: 119, 20
+  size: 59, 54
+  orig: 59, 54
+  offset: 0, 0
+  index: -1
+L-Forearm
+  rotate: false
+  xy: 839, 392
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+L-Leg
+  rotate: false
+  xy: 90, 13
+  size: 25, 61
+  orig: 25, 61
+  offset: 0, 0
+  index: -1
+L-Upperarm
+  rotate: false
+  xy: 839, 352
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+LD-Forearm
+  rotate: false
+  xy: 839, 307
+  size: 21, 41
+  orig: 21, 41
+  offset: 0, 0
+  index: -1
+LD-beijia
+  rotate: false
+  xy: 697, 30
+  size: 84, 92
+  orig: 84, 92
+  offset: 0, 0
+  index: -1
+LM-beijia
+  rotate: false
+  xy: 696, 126
+  size: 95, 80
+  orig: 95, 80
+  offset: 0, 0
+  index: -1
+LU-beijia
+  rotate: false
+  xy: 138, 87
+  size: 110, 144
+  orig: 110, 144
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 90, 0
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+Mouth-attack
+  rotate: false
+  xy: 164, 5
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+Mouth-celebrate
+  rotate: false
+  xy: 126, 4
+  size: 19, 12
+  orig: 19, 12
+  offset: 0, 0
+  index: -1
+Mouth-death
+  rotate: false
+  xy: 108, 0
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+Mouth-injured
+  rotate: false
+  xy: 252, 90
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+Mouth-zhang
+  rotate: false
+  xy: 149, 4
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+R-Armor
+  rotate: false
+  xy: 0, 4
+  size: 86, 70
+  orig: 86, 70
+  offset: 0, 0
+  index: -1
+RD-Forearm
+  rotate: false
+  xy: 785, 33
+  size: 49, 46
+  orig: 49, 46
+  offset: 0, 0
+  index: -1
+RD-beijia
+  rotate: false
+  xy: 591, 150
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+RM-beijia
+  rotate: false
+  xy: 575, 21
+  size: 118, 101
+  orig: 118, 101
+  offset: 0, 0
+  index: -1
+RU-Forearm
+  rotate: false
+  xy: 839, 479
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+RU-beijia
+  rotate: false
+  xy: 0, 78
+  size: 134, 153
+  orig: 134, 153
+  offset: 0, 0
+  index: -1
+SE-daoguang01
+  rotate: false
+  xy: 0, 235
+  size: 294, 277
+  orig: 294, 277
+  offset: 0, 0
+  index: -1
+SE-daoguang02
+  rotate: false
+  xy: 298, 249
+  size: 276, 263
+  orig: 276, 263
+  offset: 0, 0
+  index: -1
+SE-daoguang03
+  rotate: false
+  xy: 578, 255
+  size: 257, 257
+  orig: 257, 257
+  offset: 0, 0
+  index: -1
+SE-daoguang04
+  rotate: false
+  xy: 463, 126
+  size: 124, 119
+  orig: 124, 119
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 306, 7
+  size: 196, 93
+  orig: 196, 93
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 697, 210
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 463, 104
+  size: 36, 18
+  orig: 36, 18
+  offset: 0, 0
+  index: -1
