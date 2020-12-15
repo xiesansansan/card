@@ -1,6 +1,7 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
+import { CompletionContext } from 'vscode';
 import { systemDefaultPlatform } from 'vscode-test/out/util';
 
 let editor;
@@ -62,7 +63,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 
 	let demoProvider2 = new demoProvider();
-	let cppPv = vscode.languages.registerCompletionItemProvider("lua", demoProvider2);
+	let cppPv = vscode.languages.registerCompletionItemProvider("lua", demoProvider2, '-');
 	context.subscriptions.push(cppPv);
 }
 
@@ -71,23 +72,36 @@ export function deactivate() { }
 
 
 export class demoProvider implements vscode.CompletionItemProvider {
-	public provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken): vscode.CompletionItem[] {
+	public provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext): vscode.CompletionItem[] {
 
 
 		var completionItems: vscode.CompletionItem[] = [];
 		var completionItem = new vscode.CompletionItem("lua-comment");
-		completionItem.kind = vscode.CompletionItemKind.TypeParameter;
+		completionItem.kind = vscode.CompletionItemKind.Constructor;
 		completionItem.detail = "aaa";
 		completionItem.filterText = "lua";
+
 		completionItem.insertText = new vscode.SnippetString(this.getInsertStr());
-		completionItems.push(completionItem);
+
+		let index = vscode.window.activeTextEditor?.selection.start.line || 0;
+		let lineCount = vscode.window.activeTextEditor?.document.lineCount || 0;
+		let line = vscode.window.activeTextEditor?.document.lineAt(index);
+		let lineText = line?.text || '';
+		if (lineText.startsWith('--') && lineText.trim() == '--') {
+			if (index < lineCount - 1) {
+				let nextLine = vscode.window.activeTextEditor?.document.lineAt(index + 1);
+				let nextLineText = nextLine?.text || '';
+				if (nextLineText.match(/.*function.*\(.*\)/)) {
+					completionItems.push(completionItem);
+				}
+			}
+		}
+
 
 		return completionItems;
 	}
 	public resolveCompletionItem(item: vscode.CompletionItem, token: vscode.CancellationToken): any {
 
-		vscode.window.showInformationMessage('这一次,......');
-		vscode.window.registerCustomEditorProvider
 		return item;
 	}
 	dispose() {
@@ -101,7 +115,7 @@ export class demoProvider implements vscode.CompletionItemProvider {
 
 	getInsertStr() {
 
-		let str = "-- ${1:返回值}";
+		let str = " ${1:返回值}";
 		let index = vscode.window.activeTextEditor?.selection.start.line || 0;
 		let sum = vscode.window.activeTextEditor?.document.lineCount || 0;
 		if (index < sum) {
